@@ -56,9 +56,7 @@ $$
 Thì chúng ta sẽ gặp phải một số vấn đề về miền giá trị.y nằm trong khoảng [0,1].Giá trị của y~ thì nằm trong khoảng [$-\infty$,$+\infty$].Công thức đó sẽ bị phụ thuộc vào y~ hơn là bị phụ thuộc vào y.Tập trung tìm $\theta$ sao cho y~ nhỏ nhất thay vì tìm $\theta$ sao cho y~ xấp xỉ bằng y.
 
 Ý tưởng của Logistics Regression là sử dụng một hàm sigmoid :
-$
-   f(x) =  \frac{1}{\ 1 + \mathrm{e}^{-x}}
-$
+$$f(x) =  \frac{1}{\ 1 + \mathrm{e}^{-x}}$$
 
 Lý do mà hàm sigmoid được chọn bởi vì hàm sigmoid là hàm số liên tục nhận giá trị thực.Bị chặn trong khoảng [0,1].Cho dù là tiến thằng đến $-\infty$ hay là $+\infty$. Thì giá trị của hàm sigmoid đề bị giới hạn trong khoảng [0,1].
 
